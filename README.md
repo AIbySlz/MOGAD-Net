@@ -12,6 +12,9 @@
 - **Phase 1:** Establishes a semi-supervised multi-organ collaboration framework. The brain branch’s predictions guide the training of heart and gut branches, enabling inter-organ alignment and feature fusion.
 - **Phase 2:** Transfers diagnostic knowledge from the multi-organ network to a brain-only model (using PET or MRI), enhancing clinical applicability when peripheral organ data are unavailable.
 ![Framework of the proposed MOGAD-Net for training and inference phases.](https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg)
+*Figure 1. Framework of the proposed MOGAD-Net for training and inference phases.*
+![Computational details of MOGAD-Net method.](https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Method_detail.jpg)
+*Figure 2. Computational details of MOGAD-Net method*
 ---
 
 ## 🛠️ Installation
