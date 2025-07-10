@@ -36,15 +36,6 @@ pip install -r requirements.txt
 ## 📁 Folder Structure
 ```
 MOGAD-Net
-  ├─ dataloader 
-  │   ├─ GeneralDataset_brain_all_data.py <pretraining phase> 
-  │   ├─ GeneralDataset_brain_data.py <phase 2>
-  │   ├─ GeneralDataset_whole_body.py <phase 1>
-  │   └─ GeneralDataset_whole_body_and_brain.py <phase 1，phase 2>
-  ├─ model
-  │   ├─ module.py 
-  │   ├─ PanSwin.py
-  │   └─ TGIC.py
   ├─ MOGAD_Net_phase 1
   │   ├─ test.py 
   │   └─ train.py 
@@ -54,6 +45,18 @@ MOGAD-Net
   ├─ MOGAD_Net_pretraining
   │   ├─ test.py
   │   └─ train.py
+  ├─ dataloader 
+  │   ├─ GeneralDataset_brain_all_data.py <pretraining phase> 
+  │   ├─ GeneralDataset_brain_data.py <phase 2>
+  │   ├─ GeneralDataset_whole_body.py <phase 1>
+  │   └─ GeneralDataset_whole_body_and_brain.py <phase 1，phase 2>
+  ├─ figure
+  │   ├─ Framework.jpg
+  │   └─ Method_detail.jpg
+  ├─ model
+  │   ├─ module.py 
+  │   ├─ PanSwin.py
+  │   └─ TGIC.py
   ├─README.md
   └─requirements.txt
 ```
