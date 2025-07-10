@@ -11,16 +11,8 @@
 - **Pretraining phase:** Trains a baseline classifier on brain PET images to distinguish cognitively normal (NC) individuals from those with mild cognitive impairment (MCI). The outputs are used to generate pseudo-labels for unlabeled samples.
 - **Phase 1:** Establishes a semi-supervised multi-organ collaboration framework. The brain branch’s predictions guide the training of heart and gut branches, enabling inter-organ alignment and feature fusion.
 - **Phase 2:** Transfers diagnostic knowledge from the multi-organ network to a brain-only model (using PET or MRI), enhancing clinical applicability when peripheral organ data are unavailable.
-![Framework of the proposed MOGAD-Net for training and inference phases.](https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg)
-*Figure 1. Framework of the proposed MOGAD-Net for training and inference phases.*
-![Computational details of MOGAD-Net method.](https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Method_detail.jpg)
-*Figure 2. Computational details of MOGAD-Net method*
-
-
-
-
 <p align="center">
-  <img src="https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg" alt="Framework of MOGAD-Net">
+  <img src="https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg" alt="Framework of MOGAD-Net" width="80%">
   <br>
   <strong>Figure 1. Framework of the proposed MOGAD-Net for training and inference phases.</strong>
 </p>
@@ -30,10 +22,6 @@
   <br>
   <strong>Figure 2. Computational details of MOGAD-Net method.</strong>
 </p>
-
-
-
-
 ---
 
 ## 🛠️ Installation
