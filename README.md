@@ -6,10 +6,10 @@
 
 ## 📜 Overview
 
-**MOGAD-Net** is a deep learning framework designed to enable early detection of Alzheimer's disease by integrating pathological features from the brain, heart, and gut using whole-body PET imaging. The architecture consists of three progressive phases:
+**MOGAD-Net** is a deep learning framework designed to enable early detection of Alzheimer's disease by integrating pathological features from the brain, heart, and gut using whole-body PET images. The architecture consists of three phases:
 
-- **Pretraining phase:** Trains a baseline classifier on brain PET images to distinguish cognitively normal (NC) individuals from those with mild cognitive impairment (MCI). The outputs are used to generate pseudo-labels for unlabeled samples.
-- **Phase 1:** Establishes a semi-supervised multi-organ collaboration framework. The brain branch’s predictions guide the training of heart and gut branches, enabling inter-organ alignment and feature fusion.
+- **Pretraining phase:** A classifier is trained on brain PET images to distinguish to distinguish cognitively normal (NC) individuals from those with mild cognitive impairment (MCI). This model establishes a diagnostic baseline and generates reliable pseudo-labels for unlabeled samples in the subsequent semi-supervised framework.
+- **Phase 1:** Establishes a semi-supervised multi-organ collaboration framework. we introduce an innovative strategy in which classification outcomes from the brain branch serve as pseudo-labels to guide the training of the heart and gut branches. This facilitates joint optimization and feature fusion across the three organ-specific sub-networks: brain, heart, and gut. 
 - **Phase 2:** Transfers diagnostic knowledge from the multi-organ network to a brain-only model (using PET or MRI), enhancing clinical applicability when peripheral organ data are unavailable.
 <p align="center">
   <img src="https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg" alt="Framework of MOGAD-Net" width="80%">
