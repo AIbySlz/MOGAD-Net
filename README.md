@@ -15,6 +15,25 @@
 *Figure 1. Framework of the proposed MOGAD-Net for training and inference phases.*
 ![Computational details of MOGAD-Net method.](https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Method_detail.jpg)
 *Figure 2. Computational details of MOGAD-Net method*
+
+
+
+
+<p align="center">
+  <img src="https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Framework.jpg" alt="Framework of MOGAD-Net">
+  <br>
+  <strong>Figure 1. Framework of the proposed MOGAD-Net for training and inference phases.</strong>
+</p>
+
+<p align="center">
+  <img src="https://github.com/AIbySlz/MOGAD-Net/blob/main/figure/Method_detail.jpg" alt="Method Detail of MOGAD-Net">
+  <br>
+  <strong>Figure 2. Computational details of MOGAD-Net method.</strong>
+</p>
+
+
+
+
 ---
 
 ## 🛠️ Installation
