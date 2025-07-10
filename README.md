@@ -22,6 +22,7 @@ pip install -r requirements.txt
 ---
 
 ## 📁 Folder Structure
+```
 MOGAD-Net
   ├─ dataloader 
   │   ├─ GeneralDataset_brain_all_data.py <pretraining phase> 
@@ -43,3 +44,4 @@ MOGAD-Net
   │   └─ train.py
   ├─README.md
   └─requirements.txt
+```
